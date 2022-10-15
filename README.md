@@ -1,7 +1,6 @@
 # Material UI & React
 Este proyecto se creo con el objetivo de aplicar los conocimientos de [**Material UI**] con [**Reactjs**]
 
-## Material UI & React
 Material-Ui es un API de React para la creación de interfaces con Material Design. Es comunmente utilizado por sus diseños sencillos y elegantes. 
 Es por esto que quiero leer y comprender mejor Material-UI y probarlo con ReactJS.
 
