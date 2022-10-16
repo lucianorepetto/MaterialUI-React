@@ -16,7 +16,7 @@ Es por esto que quiero leer y comprender mejor Material-UI y probarlo con ReactJ
 
 ## Recursos
 
-* [Material UI overview](https://mui.com/material-ui/getting-started/overview/)
+* [Material UI Documentation](https://mui.com/material-ui/getting-started/overview/)
 * [MUI Learning resources](https://mui.com/material-ui/getting-started/learn/#free)
 * [Similar proyect](https://mui.com/store/previews/minimal-dashboard/)
 
