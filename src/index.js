@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
   HashRouter,
-  Navigate,
   Routes,
   Route
 } from 'react-router-dom'
