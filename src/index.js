@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App/>}>
+      <Route path="/MaterialUI-React" element={<App/>}>
         <Route path="authentication" element={<Authentication/>} />
         <Route path="database" element={<Database/>} />
       </Route>

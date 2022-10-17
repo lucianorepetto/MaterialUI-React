@@ -8,40 +8,12 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Toolbar from '@mui/material/Toolbar';
 import { mainNavbarItems } from './consts/navbarListItems';
-import {useParams, useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 const drawerWidth = 240;
 
-function Navbar(props) {
+function Navbar() {
   const navigate = useNavigate();
-
-  const { window } = props;
-  const [mobileOpen, setMobileOpen] = React.useState(false);
-
-  const handleDrawerToggle = () => {
-    setMobileOpen(!mobileOpen);
-  };
-
-  const drawer = (
-    <div>
-      <Toolbar />
-      <Divider />
-      <List>
-        {mainNavbarItems.map((item, index) => (
-          <ListItem key={item.id} onClick={()=>navigate(item.route)} disablePadding>
-            <ListItemButton>
-              <ListItemIcon sx={{color: 'rgba(255, 255, 255, 0.7)'}}>
-                {item.icon}
-              </ListItemIcon>
-              <ListItemText primary={item.label} />
-            </ListItemButton>
-          </ListItem>
-        ))}
-      </List>
-      
-    </div>
-  );
-
   return (
     <div>
         <Drawer
