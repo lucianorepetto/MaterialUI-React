@@ -13,7 +13,7 @@ import Database from './pages/Database/Database'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/MaterialUI-React" element={<App/>}>
         <Route path="authentication" element={<Authentication/>} />
@@ -22,8 +22,4 @@ root.render(
     </Routes>
   </BrowserRouter>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
