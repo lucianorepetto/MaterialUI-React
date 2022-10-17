@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowserRouter,
+  HashRouter,
+  Navigate,
   Routes,
   Route
 } from 'react-router-dom'
@@ -13,13 +14,13 @@ import Database from './pages/Database/Database'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App/>}>
         <Route path="authentication" element={<Authentication/>} />
         <Route path="database" element={<Database/>} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 reportWebVitals();
