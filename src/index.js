@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Routes>
-      <Route path="/MaterialUI-React" element={<App/>}>
+      <Route path="/" element={<App/>}>
         <Route path="authentication" element={<Authentication/>} />
         <Route path="database" element={<Database/>} />
       </Route>
