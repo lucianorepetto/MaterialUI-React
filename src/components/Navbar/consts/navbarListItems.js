@@ -39,7 +39,7 @@ export const mainNavbarItems = [
     {
         id: 5,
         icon: <SettingsInputComponentIcon/>, 
-        label: 'Machine Lerning',
-        route: 'machine-lerning'
+        label: 'Machine Learning',
+        route: 'machine-learning'
     },
 ]
